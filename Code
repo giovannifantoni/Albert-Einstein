@@ -1,0 +1,87 @@
+<!doctype html>
+
+<style>
+  body {
+    background-color: rgb(236, 232, 232)
+  }
+  
+  .center-txt {
+    text-align: center;
+  }
+  
+  .center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  }
+  
+  #img-div {
+    background-color: white;
+  }
+
+  #tribute-info {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  @media {
+    .center-img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+  }
+</style>
+
+
+
+
+
+<div id="main">
+  
+  <div id="title">
+    <h1 class="center-txt">Albert Einstein</h1>
+    <h2 class="center-txt">The Greatest Physicist Who Ever Lived</h2>
+  </div>
+  
+  <figure id="img-div">
+    <img src="https://media.fromthegrapevine.com/assets/images/2016/2/einstein-main-0201.jpg.824x0_q71_crop-scale.jpg" class="center-img" id="image">
+    <figcaption id="img-caption" class="center-txt">
+      Albert Einstein and Elsa Lowenthal, his second wife, in New Jersey.
+    </figcaption>
+  </figure>
+  
+  <div id="tribute-info">
+    <h3>Some important events in Einstein's life</h3>
+    <ul>
+      <li><strong>1879</strong>" - Born in Ulma, Germany"</li>
+      <li><strong>1895</strong>" - Fails exams for Zurich's Swiss Federal Polytecnic admission"</li>
+      <li><strong>1896</strong>" - Passes the exam and meets Mileva Marić"</li>
+      <li><strong>1900</strong>" - Awarded the Federal Polytechnic teaching diploma"</li>
+      <li><strong>1903</strong>" - Marries Mileva Marić"</li>
+      <li><strong>1904</strong>" - Birth of Albert's son, Hans Albert Einstein"</li>
+      <li><strong>1905</strong>" - Annus Mirabilis, he publishes four groundbreaking papers including Special Relativity"</li>
+      <li><strong>1910</strong>" - Birth of Eduard, Einstein's second son"</li>
+      <li><strong>1916</strong>" - General Relativity is published"</li>
+      <li><strong>1919</strong>" - Einstein and Mileva obtain a divorce, E. marries his cousin Elsa and Special Relativity is proven during solar eclipse"</li>
+      <li><strong>1922</strong>" - Awarded Nobel Prize"</li>
+      <li><strong>1933</strong>" - Nazis seize power in Germany, Elsa dies in Princeton"</li>
+      <li><strong>1939</strong>"- Signs a letter to President Franklin D. Roosevelt urging the acceleration of atomic bomb development"</li>
+      <li><strong>1945</strong>" - Atomic bomb dropped, end of World War II and Einstein considered the inventor of the bomb"</li>
+      <li><strong>1955</strong>" - Dies in New Jersey"</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p id="einstein-quote"><em>"I have no special talent. I am just passionately curious."</em></p>
+  <div>Albert Einstein</div>
+  <h3>If you are interested about him, you can look up a lot of information on his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Albert_Einstein">Wikipedia page</a>.</h3>
+  </footer>
+  </div>
+</html>
